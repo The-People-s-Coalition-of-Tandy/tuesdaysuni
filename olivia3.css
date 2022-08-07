@@ -201,6 +201,11 @@ body.noBG {
   padding:0;
 }
 
+.sound {
+	background: none;
+	border: none;
+}
+
 
 
 @keyframes filter-animation {

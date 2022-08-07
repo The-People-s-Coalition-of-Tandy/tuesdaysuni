@@ -14,7 +14,7 @@
 <meta name="author" content="elie mcafee-hahn, Olivia Sage Hamilton">
 <meta name="robots" content="index,follow">
 <link rel="stylesheet" type="text/css" href="../olivia3.css">
-
+<script src="./sound.js"></script>
 
 <style type="text/css">
 
@@ -46,10 +46,10 @@
 
 
 <!-- autoplay -->
-<iframe src="Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+<iframe src="../Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
 <audio id="player" autoplay loop>
-    <source src="Assets/Music/RedLake_LindsayDobbs.wav" type="audio/WAV">
+    <source src="../Assets/Music/RedLake_LindsayDobbs.wav" type="audio/WAV">
 </audio>
 
 
@@ -65,7 +65,9 @@
 
 </div>
 
-
+<button class="sound">
+	<img width="100px" height="100px" src="../Assets/soundOn.png" onclick="soundToggle(this)">
+</button>
 
 </center>
 </body>
