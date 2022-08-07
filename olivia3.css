@@ -207,9 +207,10 @@ body.noBG {
 }
 
 .info{
-
-  position: absolute;
-  right: 0;
+	position: absolute;
+	right:0;
+	bottom: 120px;
+	margin-right: 30px;
 }
 
 @keyframes filter-animation {
