@@ -99,6 +99,20 @@ margin-top: 2.5%;
 
 }
 
+.imagesResize{
+	/* background-color:#c4c3c2; */
+	/* width: 20%; */
+		/* background-image: url("/Users/elie/Downloads/HTML_CLIPART/BKGRND/PATTERNS/K5.GIF"); */
+		border: 4px double #FF69B4	;
+		/* min-width: 300px; */
+		box-shadow: 4px 10px 80px 1px pink;
+    max-width: 73%;
+    max-height: 100vh;
+    margin: auto;
+    margin-top: 3%;
+}
+
+
 .button{
     background-color: #ccc;
 border-radius: 12px;
@@ -156,6 +170,37 @@ body.gallery {
 	/* width:50%; */
 }
 
+body.gallerySlow {
+	/* background-color:#b781de; */
+	background-image: url("./Assets/A1purp.GIF");
+	animation: filter-animation-gallery-slow 30s linear infinite;
+	margin:0;
+	padding:0;
+	/* width:50%; */
+}
+
+body.gallerySaturate {
+	/* background-color:#b781de; */
+	background-image: url("./Assets/A1purp.GIF");
+	animation: filter-animation-gallery-saturate 9s linear infinite;
+	margin:0;
+	padding:0;
+	/* width:50%; */
+}
+
+
+
+body.noAnim {
+  background-image: url("./Assets/A1purp.GIF");
+  margin:0;
+  padding:0;
+}
+
+body.noBG {
+  margin:0;
+  padding:0;
+}
+
 
 
 @keyframes filter-animation {
@@ -188,6 +233,46 @@ body.gallery {
 
   100% {
     filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes filter-animation-gallery-slow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  5% {
+    filter: hue-rotate(0deg);
+  }
+
+  60% {
+    filter: hue-rotate(360deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes filter-animation-gallery-saturate {
+  0% {
+    filter: saturate(1);
+  }
+
+  5% {
+    filter: saturate(1);
+  }
+
+  50% {
+    filter: saturate(.8);
+  }
+
+  80%{
+    filter: saturate(2);
+  }
+
+  100% {
+    filter: saturate(1);
   }
 }
 /*

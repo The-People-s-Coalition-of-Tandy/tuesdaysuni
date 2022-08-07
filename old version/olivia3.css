@@ -1,0 +1,237 @@
+/* CSS Document */
+
+
+
+/* meryn.ru index nav */
+
+/* #louise {
+	padding: 15px 15px 0 0;
+} */
+
+html {zoom: 90%;}
+
+@font-face {
+  font-family: webfont;
+  src: url(./Fonts/000webfont.ttf);
+}
+
+
+#homecont h1 {
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+
+	#homecont ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.msg {
+	color:#CC0;
+}
+
+
+/* elie's links */
+	/* <!-- COLOR of Text Links --> */
+/* a {
+COLOR: pink;
+
+} */
+
+a.pink {
+COLOR: pink;
+
+}
+
+a.teal {
+COLOR: teal;
+
+}
+
+.logo{
+	filter: drop-shadow(12px 12px 4px #4444dd);
+
+}
+
+.menu_bg{
+	/* background-color:#c4c3c2; */
+	width: 15%;
+		background-image: url("./Assets/K5.GIF");
+		border: 4px double #FF69B4	;
+		min-width: 320px;
+		box-shadow: 4px 10px 80px 1px pink;
+}
+
+.menu{
+	/* background-color:#ffffff; */
+	background-image: url("./Assets/K4invert.GIF");
+	width: 250px;
+	border: 4px double #FF69B4;
+	overflow: scroll;
+  min-width: 240px;
+
+
+}
+
+.images_bg {
+         display: grid;
+         height: 100%;
+
+     }
+
+.images{
+	/* background-color:#c4c3c2; */
+	/* width: 20%; */
+		/* background-image: url("/Users/elie/Downloads/HTML_CLIPART/BKGRND/PATTERNS/K5.GIF"); */
+		border: 4px double #FF69B4	;
+		/* min-width: 300px; */
+		box-shadow: 4px 10px 80px 1px pink;
+    max-width: 50%;
+max-height: 100vh;
+margin: auto;
+margin-top: 2.5%;
+
+}
+
+.button{
+    background-color: #ccc;
+border-radius: 12px;
+font-size: 11px;
+}
+
+
+.email{
+	font-size: 15px;
+	color: blue;
+
+}
+
+.border{
+	border: 2px dotted #000	;
+	margin: 15px;
+
+}
+
+#homecont h2 {
+	font-size:35px;
+	font-style:italic;
+	margin:13px 0 0 0 ;
+	padding:0;
+	color: #ebed8a;
+
+font-family: webfont;
+filter: drop-shadow(15px 2px 4px #4444dd);
+}
+
+a:hover{
+  text-decoration:underline;
+	font-style:normal;
+	font-weight:bold;
+  color: red;
+
+}
+
+body.home {
+	/* background-color:#b781de; */
+	background-image: url("./Assets/A1purp.GIF");
+	animation: filter-animation 8s infinite;
+	margin:0;
+	padding:0;
+	/* width:50%; */
+}
+
+
+body.gallery {
+	/* background-color:#b781de; */
+	background-image: url("./Assets/A1purp.GIF");
+	animation: filter-animation-gallery 6s linear infinite;
+	margin:0;
+	padding:0;
+	/* width:50%; */
+}
+
+
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(100deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes filter-animation-gallery {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  15% {
+    filter: hue-rotate(0deg);
+  }
+
+
+  60% {
+    filter: hue-rotate(360deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+/*
+h1 {
+	font-style:italic;
+	font-size:20px;
+}
+h2 {
+	font-size:44px;
+	text-align:center;
+	padding:0;
+	margin:0;
+
+#welcome {
+	float:right;
+
+	}
+
+#marble1 {
+	text-align: center;
+
+}
+
+
+
+
+
+/* Main Nav */
+/* ul#nav {
+	list-style:none;
+	margin:20px 0 40px 65px;
+	padding:0;
+	text-align:center;
+	height:40px;
+}
+ul#nav li {
+	margin:0;
+	float:left;
+	width:125px;
+	border-left:1px #ccc  dotted;
+	border-right:1px #ccc  dotted;
+}
+ul#nav li a {
+	text-decoration:none;
+	color:#666;
+	font-style:italic
+} */
