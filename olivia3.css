@@ -206,7 +206,11 @@ body.noBG {
 	border: none;
 }
 
+.info{
 
+  position: absolute;
+  right: 0;
+}
 
 @keyframes filter-animation {
   0% {
