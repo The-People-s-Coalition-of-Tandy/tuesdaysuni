@@ -213,6 +213,13 @@ body.noBG {
 	margin-right: 30px;
 }
 
+.tandy{
+  position: absolute;
+  left:10px;
+  bottom: 12px;
+  /* margin-right: 0px; */
+}
+
 @keyframes filter-animation {
   0% {
     filter: hue-rotate(0deg);
