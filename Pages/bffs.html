@@ -41,20 +41,19 @@
 
 </head>
 
-<body class="gallery">
+<body class="gallery" onload="hi()">
 <!-- <center>	<img class="logo" src="/Users/elie/Downloads/oliviaMoons1.gif" width="250px"> </center> -->
 
 
 
-
 <!-- autoplay -->
-<iframe src="Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-
-<audio id="player" autoplay loop>
-    <source src="Assets/Music/01. BffsWCritters_Lola.wav" type="audio/WAV">
-</audio>
+<iframe src="../Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
 
+<audio preload autoplay loop hidden id="player">
+	<source src="../Assets/Music/01. BffsWCritters_Lola.wav" type="audio/wav">
+	<embed src="../Assets/Music/01. BffsWCritters_Lola.wav">
+	</audio>
 
 
 <!-- WEBSITE START -->
@@ -67,11 +66,24 @@
 	<img src="./Contents/bffs with critters.jpeg" class="images center" style="width:80%"alt="">
 
 </div>
+
+
+
+<br>
+<br>
+
 <button class="sound">
 	<img width="100px" height="100px" src="../Assets/soundOn.png" onclick="soundToggle(this)">
 </button>
 
-
 </center>
+
+<div class="stickyBackButton">
+  <a href="https://tuesdaysuni.pcotandy.org">
+    <img src="../Assets/backButton.png" alt="" width="">
+  </a>
+</div>
+
 </body>
+
 </html>

@@ -41,9 +41,19 @@
 
 </head>
 
-<body class="noAnim" >
+<body class="noAnim" onload="hi()">
 <!-- <center>	<img class="logo" src="/Users/elie/Downloads/oliviaMoons1.gif" width="250px"> </center> -->
 
+
+
+<!-- autoplay -->
+<iframe src="../Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+
+<audio preload autoplay loop hidden id="player">
+	<source src="../Assets/Music/08. SorcererDrinking6GlassesOfWater_Swaya.wav" type="audio/wav">
+	<embed src="../Assets/Music/08. SorcererDrinking6GlassesOfWater_Swaya.wav">
+</audio>
 
 
 <!-- WEBSITE START -->
@@ -53,7 +63,7 @@
 <div class="images_bg">
 
 
-	<img src="./Contents/sorcerer drinking 6 glasses of water.jpeg" class="images center" style="width:80%"alt="">
+	<img src="./Contents/sorcerer drinking 6 glasses of water.jpeg" class="imagesSmall center" style="width:80%"alt="">
 
 </div>
 
@@ -62,5 +72,11 @@
 </button>
 
 </center>
+
+<div class="stickyBackButton">
+  <a href="https://tuesdaysuni.pcotandy.org">
+    <img src="../Assets/backButton.png" alt="" width="">
+  </a>
+</div>
 </body>
 </html>

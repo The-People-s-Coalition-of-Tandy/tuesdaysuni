@@ -1,66 +1,85 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+	<title>TUESDAY'S UNIVERSE</title>
+
+	<meta name="keywords" content="Tuesday Hamilton, Olivia Sage Hamilton, Olivia Hamilton, art, fashion, fabric arts">
+	<meta name="author" content="elie mcafee-hahn, Olivia Sage Hamilton">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" type="text/css" href="../olivia3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<style type="text/css">
+		#works {
+			width: 170px;
+			background-color: none;
+			font-weight: bold;
+			font-size: 22px;
+			padding: 4px;
+			border: solid #36C 2px;
+		}
 
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		#works a:link,
+		#works a:visited {
+			color: #8080C0;
+			text-decoration: none;
+		}
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		#works a:hover,
+		#works a:active {
+			color: red;
+		}
+	</style>
 
-
-<title>TUESDAY'S UNIVERSE</title>
-
-<meta name="keywords" content="Tuesday Hamilton, Olivia Sage Hamilton, Olivia Hamilton, art, fashion, fabric arts">
-<meta name="author" content="elie mcafee-hahn, Olivia Sage Hamilton">
-<meta name="robots" content="index,follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="../olivia3.css">
-<script src="./sound.js"></script>
-
-<style type="text/css">
-
-#works {
-	width:170px;
-	background-color:none;
-	font-weight:bold;
-	font-size:22px;
-	padding: 4px;
-	border:solid #36C 2px;
-}
-
-#works a:link, #works a:visited{
-	color:#8080C0;
-	text-decoration:none;
-}
-
-#works a:hover, #works a:active{
-	color:red;
-}
-
-</style>
+	<script src="./sound.js"></script>
 
 </head>
 
-<body class="noBG">
-<!-- <center>	<img class="logo" src="/Users/elie/Downloads/oliviaMoons1.gif" width="250px"> </center> -->
+<body class="noBG" onload="hi()">
+	<!-- <center>	<img class="logo" src="/Users/elie/Downloads/oliviaMoons1.gif" width="250px"> </center> -->
+
+		<!-- autoplay -->
+		<iframe src="../Assets/Music/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
 
-
-<!-- WEBSITE START -->
-<center>
-
-
-<div class="images_bg">
+		<audio preload autoplay loop hidden id="player">
+			<source src="../Assets/Music/03. FlowerheadLoop_Ko.wav" type="audio/wav">
+			<embed src="../Assets/Music/03. FlowerheadLoop_Ko.wav">
+	  	</audio>
 
 
-	<img src="./Contents/flowerHead.jpeg" class="images center" style="width:80%"alt="">
+	<!-- WEBSITE START -->
+	<center>
 
-</div>
 
-<button class="sound">
-	<img width="100px" height="100px" src="../Assets/soundOn.png" onclick="soundToggle(this)">
-</button>
+		<div class="images_bg">
 
-</center>
+
+			<img src="./Contents/flowerHead.jpeg" class="imagesSmall center" style="width:80%" alt="">
+
+		</div>
+
+		<button class="sound">
+			<img width="100px" height="100px" src="../Assets/soundOn.png" onclick="soundToggle(this)">
+		</button>
+
+	</center>
+
+	<div class="stickyBackButton">
+	  <a href="https://tuesdaysuni.pcotandy.org">
+	    <img src="../Assets/backButton.png" alt="" width="">
+	  </a>
+	</div>
+	
 </body>
+
 </html>
