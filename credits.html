@@ -11,7 +11,7 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
 
-  <style media="screen">
+  <style media="screen" type="text/css">
     body{
       background-color: gray;
       color: white;
@@ -46,6 +46,21 @@
       position: relative;
       right:17.5%;
       bottom: 0px;
+      animation: filter-animation 14s linear infinite;
+    }
+
+    @keyframes filter-animation {
+      0% {
+        filter: hue-rotate(100deg);
+      }
+
+      50% {
+        filter: hue-rotate(460deg);
+      }
+
+      100% {
+        filter: hue-rotate(100deg);
+      }
     }
 
     .backButton{

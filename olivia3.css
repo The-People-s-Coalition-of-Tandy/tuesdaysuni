@@ -236,6 +236,9 @@ body.noBG {
 	border: none;
 }
 
+
+
+/* bottom buttons */
 .info{
 	position: absolute;
 	right:0;
@@ -243,12 +246,29 @@ body.noBG {
 	margin-right: 30px;
 }
 
-.tandy{
+ .tandy{
   position: absolute;
   left:10px;
   bottom: 12px;
-  /* margin-right: 0px; */
 }
+
+
+/* top buttons */
+
+/* .info{
+  position: -webkit-fixed;
+	position: fixed;
+	right:0;
+	top:0;
+  padding: 5px;
+}
+
+.tandy{
+  position: -webkit-fixed;
+	position: fixed;
+  left:10px;
+  top: 12px;
+} */
 
 .stickyBackButton {
   position: -webkit-fixed;
@@ -333,6 +353,44 @@ right:0;
     filter: saturate(1);
   }
 }
+
+
+@keyframes dropshadowtest
+{
+    0%
+    {
+        filter: drop-shadow(12px 12px 4px rgb(255, 0, 0));
+    }
+    25%
+    {
+        filter: drop-shadow(12px 12px 4px rgb(0, 255, 0));
+    }
+    50% {
+      filter: drop-shadow(0 0 5px rgb(0, 0, 255));
+    }
+    100%
+    {
+        filter: drop-shadow(12px 12px 4px rgb(255, 0, 0));
+    }
+}
+
+
+/* @keyframes opacity
+{
+    0%
+    {
+        filter: opacity(100%);
+    }
+
+    50% {
+      filter: opacity(40%);
+    }
+    100%
+    {
+      filter: opacity(100%);
+    }
+} */
+
 /*
 h1 {
 	font-style:italic;
